@@ -1,0 +1,148 @@
+.chatApp {
+    font-family: 'Roboto', sans-serif;
+}
+
+.userList {
+    background: #4a3748;
+    height:50%;
+    color : #90658e;
+    position:relative;
+    overflow:scroll;
+}
+
+.userList li{
+    text-decoration: none;
+    list-style-type:none;
+}
+
+.channelList{
+    background: #4a3748;
+    height:50%;
+    color : #90658e;
+    position:relative;
+    overflow:scroll;
+}
+
+.activeChannelListItem {
+    background: teal;
+    color : white;
+    width : 90%;
+}
+.activeChannelListItem a{
+    color : white;
+    text-decoration: none;
+}
+
+a{
+    color: #90658e;
+    text-decoration: none;
+}
+
+.channelListHeaderButton{
+    margin-left:10px;
+    float: left;
+    color: #90658e;
+}
+
+
+.leftPane {
+    position: fixed;
+    float: left;
+    max-width: 200px;
+    min-width: 200px;
+    height: 100%;
+}
+
+.rightPane {
+    float: right;
+    width: 70%;
+    height: 100%;
+}
+
+.channelList li{
+    list-style-type:none;
+}
+
+.messageList li{
+    word-wrap:break-word;
+    width : 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.messageList {
+    max-height : 90vh;
+    overflow:auto;
+}
+
+
+.inputArea {
+    position: fixed;
+    bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #ececec;
+}
+
+.deleteButton{
+    display:none;
+}
+
+.individualMessage:hover .deleteButton {
+  display: inline-block;
+}
+
+.individualMessage {
+    max-width: 80%;
+    background: white;
+}
+
+.individualMessage:hover {
+    max-width: 80%;
+    background: #f8f8f8;
+}
+
+.individualMessage .messageText {
+    float:right;
+    word-wrap: break-word;
+    width : 70%;
+}
+
+
+.individualMessage .timeStamp {
+    font-size: 10px;
+    float: left;
+    width: 20%;
+}
+
+.individualMessage .sender{
+    font-weight: bold;
+    font-size: 18px;
+    float: left;
+}
+
+.messageLine {
+    display: inline-block;
+}
+
+
+.individualUserSelected {
+    background: teal;
+    color : #ffffff;
+    width : 100%;
+}
+.individualUserSelected a{
+    color : white;
+    text-decoration: none;
+}
+
+.individualUser{
+    background: #4a3748;
+    color : #90658e;
+    width : 90%;
+}
+.individualUser a{
+    color : #90658e;
+    text-decoration: none;
+}
